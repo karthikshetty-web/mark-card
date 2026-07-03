@@ -55,3 +55,44 @@ button:hover{
     font-size:18px;
     font-weight:bold;
 }
+
+.container1{
+    position:absolute;
+    top:20px;
+    right:20px;
+}
+
+#themeBtn{
+    width:auto;
+    padding:10px 20px;
+    background:#333;
+}
+
+body.dark{
+    background:#121212;
+    color:white;
+}
+
+body.dark .card{
+    background:#1f1f1f;
+    color:white;
+}
+
+body.dark input{
+    background:#2d2d2d;
+    color:white;
+    border:1px solid #555;
+}
+
+body.dark input::placeholder{
+    color:#ccc;
+}
+
+body.dark #btn{
+    background:#ff9800;
+}
+
+body.dark #themeBtn{
+    background:white;
+    color:black;
+}
