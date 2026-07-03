@@ -24,6 +24,7 @@ function getMarks(){
      Subject: ${subject}<br>
      Total Marks: ${total}`;
 }
+
 const themeBtn = document.getElementById("themeBtn");
 
 themeBtn.addEventListener("click", function () {
